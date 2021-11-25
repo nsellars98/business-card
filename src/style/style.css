@@ -1,0 +1,172 @@
+/* General Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background: #23252c;
+  height: 868px;
+  width: 550px;
+  min-height: 100vh;
+  width: 100%;
+}
+
+svg {
+  display: block;
+  height: 25px;
+  width: 25px;
+  fill: #918e9b;
+}
+
+/* Header Styles */
+
+.heading-container {
+  background: #1a1b21;
+  width: 317px;
+  padding: 9px 51px;
+}
+
+.heading-container > a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.heading-container > a > svg {
+  height: 16px;
+  width: 16px;
+}
+
+.heading-profile-photo {
+  height: 317px;
+  width: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.heading-title {
+  color: #fff;
+  height: 25.81px;
+  width: 178.06px;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.heading-subtitle {
+  color: #f3bf99;
+  height: 14.19px;
+  width: 178.06px;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.portfolio-link {
+  color: #f5f5f5;
+  height: 16px;
+  width: 228px;
+  font-size: 10.24px;
+  line-height: 15.36px;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px, 13px, 9px, 11px;
+  height: 34px;
+  width: 115px;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.button-light {
+  background: #fff;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.button-light > svg {
+  background: #fff;
+  fill: #374151;
+  margin-right: 7px;
+}
+
+.button-dark {
+  background: #5093e2;
+  color: #fff;
+}
+
+.button-dark > svg {
+  background: #000;
+  fill: #fff;
+  margin-right: 7px;
+}
+
+.button-light,
+.button-dark {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 8px;
+}
+
+/* About Styles & Interests Styles */
+
+.about-container,
+.interests-container {
+  background: #1a1b21;
+  height: 100.5px;
+  width: 247px;
+  padding: 9px 51px;
+}
+
+.about-heading,
+.interests-heading {
+  color: #f5f5f5;
+  height: 21px;
+  width: 242.71px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.about-text,
+.interests-text {
+  color: #dcdcdc;
+  height: 61px;
+  width: 247px;
+  font-size: 10.24px;
+  line-height: 15.36px;
+}
+
+/* Footer Styles */
+
+.footer-container {
+  position: fixed;
+  background: #161619;
+  padding: 9px 51px;
+  height: 64px;
+  width: 317px;
+  bottom: 0;
+  left: 0;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer > a,
+.footer > svg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 19px 49px;
+}
