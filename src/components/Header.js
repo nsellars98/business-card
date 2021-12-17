@@ -1,5 +1,4 @@
 import React from "react";
-import "../style/style.css";
 import profile from "../assets/img/profile_image.jpg";
 
 function Header() {
