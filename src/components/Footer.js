@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="footer--container">
       <a 
-        href="https://mobile.twitter.com/NathanSellars2" 
+        href="https://twitter.com/nathansellars2"
         aria-label="Go to Nathan's Twitter profile">
         <svg 
           xmlns="http://www.w3.org/2000/svg"
