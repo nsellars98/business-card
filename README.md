@@ -1,3 +1,13 @@
+# Business Card
+
+A personal digital business card built from scratch with HTML, pure CSS, and React.js using Create React App. This single page application (SPA) project is a part of the ***React Basics*** module of the ***Frontend Developer Career Path*** by **Bob Ziroll** on [Scrimba](https://scrimba.com/learn/frontend/section-1-solo-project-coce646e88eea46f91af43ca4).
+
+[Figma Design](https://www.figma.com/file/6e8BiOcoZBdIEtwhzuAz0H/Digital-Business-Card-(Copy)?node-id=0%3A129) _not_ created by me.
+
+Technologies used: HTML, CSS, React, Microsoft Edge web browser, Visual Studio Code
+
+Check it out here [here](https://nsellars98.github.io/business-card/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
