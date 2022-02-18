@@ -18,6 +18,20 @@
   --clr-neutral-900: #000;
 
   --ff-primary: "Inter", sans-serif;
+
+  --fs-heading-title: 1.9rem;
+  --fs-heading-subtitle: 1rem;
+  --fs-portfolio-link: 0.8rem;
+  --fs-button: 0.9rem;
+  --fs-about-interests-heading: 1.25rem;
+  --fs-about-interests-text: 0.9rem;
+
+  --lh-heading-title: 2.4rem;
+  --lh-heading-subtitle: 1.5rem;
+  --lh-portfolio-link: 1.25rem;
+  --lh-button: 1.5rem;
+  --lh-about-interests-heading: 1.8rem;
+  --lh-about-interests-text: 1.2rem;
 }
 
 *,
@@ -38,8 +52,8 @@ body {
 
 svg {
   display: block;
-  height: 2.5em;
-  width: 2.5em;
+  height: 1.75em;
+  width: 1.75em;
   fill: var(--clr-accent-500);
   transition: 0.4s;
 }
@@ -72,23 +86,23 @@ svg {
 
 .heading--title {
   color: var(--clr-neutral-100);
-  font-size: 1.5625rem;
-  line-height: 1.875rem;
+  font-size: var(--fs-heading-title);
+  line-height: var(--lh-heading-title);
   margin-top: 1em;
 }
 
 .heading--subtitle {
   color: var(--clr-accent-400);
-  font-size: 0.875rem;
-  line-height: 0.9375rem;
+  font-size: var(--fs-heading-subtitle);
+  line-height: var(--lh-heading-subtitle);
   margin-top: -1.25em;
   margin-bottom: 0.67em;
 }
 
 .portfolio--link {
   color: var(--clr-accent-100);
-  font-size: 0.75rem;
-  line-height: 0.96rem;
+  font-size: var(--fs-portfolio-link);
+  line-height: var(--lh-portfolio-link);
   transition: 0.4s;
 }
 
@@ -117,8 +131,8 @@ svg {
   justify-content: center;
   align-items: center;
   border-radius: 0.375em;
-  font-size: 0.875rem;
-  line-height: 1rem;
+  font-size: var(--fs-button);
+  line-height: var(--lh-button);
   padding: 0.7em 0;
   margin: 0 0.7em;
   width: 36%;
@@ -147,7 +161,7 @@ svg {
 
 .button--light > svg,
 .button--dark > svg {
-  margin-right: 0.4375em;
+  margin-right: 0.45em;
 }
 
 .button--light:hover {
@@ -171,8 +185,8 @@ svg {
 .about--heading,
 .interests--heading {
   color: var(--clr-accent-100);
-  font-size: 1.1rem;
-  line-height: 1.5rem;
+  font-size: var(--fs-about-interests-heading);
+  line-height: var(--lh-about-interests-heading);
   margin-bottom: -0.33em;
 }
 
@@ -187,8 +201,8 @@ svg {
 .about--text,
 .interests--text {
   color: var(--clr-accent-200);
-  font-size: 0.75rem;
-  line-height: 0.96rem;
+  font-size: var(--fs-about-interests-text);
+  line-height: var(--lh-about-interests-text);
 }
 
 .interests--text {
@@ -202,7 +216,7 @@ svg {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 0.5625em 3.5em;
+  padding: 0.75em 1.75em;
   height: 4em;
   width: 70%;
   margin: 0 auto;
@@ -211,7 +225,7 @@ svg {
 }
 
 .footer--container > a > svg {
-  width: 70%;
+  margin: 0.25em;
 }
 
 .footer--container svg:hover {

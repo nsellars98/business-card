@@ -1,0 +1,202 @@
+/* 4K (Widescreen) */
+@media (min-width: 2000px) {
+  :root {
+    --fs-heading-title: 3.5rem;
+    --fs-heading-subtitle: 2rem;
+    --fs-portfolio-link: 1.4rem;
+    --fs-button: 1.5rem;
+    --fs-about-interests-heading: 2.25rem;
+    --fs-about-interests-text: 1.75rem;
+
+    --lh-heading-title: 4rem;
+    --lh-heading-subtitle: 2.75rem;
+    --lh-portfolio-link: 2.5rem;
+    --lh-button: 3rem;
+    --lh-about-interests-heading: 3rem;
+    --lh-about-interests-text: 2.5rem;
+  }
+
+  .button {
+    width: 20%;
+  }
+
+  svg {
+    height: 4em;
+    width: 4em;
+  }
+
+  .footer--container {
+    height: 8em;
+  }
+}
+
+/* Laptop L */
+@media (min-width: 1440px) and (max-width: 1999px) {
+  :root {
+    --fs-heading-title: 2.9rem;
+    --fs-heading-subtitle: 1.5rem;
+    --fs-portfolio-link: 1.1rem;
+    --fs-button: 1.25rem;
+    --fs-about-interests-heading: 1.75rem;
+    --fs-about-interests-text: 1.25rem;
+
+    --lh-heading-title: 3rem;
+    --lh-heading-subtitle: 2.25rem;
+    --lh-portfolio-link: 2rem;
+    --lh-button: 2.5rem;
+    --lh-about-interests-heading: 2.5rem;
+    --lh-about-interests-text: 1.75rem;
+  }
+
+  .button {
+    width: 25%;
+  }
+
+  svg {
+    height: 2.75em;
+    width: 2.75em;
+  }
+
+  .footer--container {
+    height: 6em;
+  }
+}
+
+/* Large Screen Specific Styles
+@media (min-width: 1440px) {
+  .about--container,
+  .interests--container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about--heading,
+  .interests--heading {
+    display: flex;
+    flex-direction: column;
+  }
+} */
+
+/* Laptop */
+@media (min-width: 1024px) and (max-width: 1439px) {
+  :root {
+    --fs-heading-title: 2.3rem;
+    --fs-heading-subtitle: 1.25rem;
+    --fs-portfolio-link: 1.05rem;
+    --fs-button: 1.1rem;
+    --fs-about-interests-heading: 1.6rem;
+    --fs-about-interests-text: 1.1rem;
+
+    --lh-heading-title: 2.8rem;
+    --lh-heading-subtitle: 2rem;
+    --lh-portfolio-link: 1.75rem;
+    --lh-button: 2rem;
+    --lh-about-interests-heading: 2.25rem;
+    --lh-about-interests-text: 1.5rem;
+  }
+
+  .button {
+    width: 25%;
+  }
+
+  svg {
+    height: 2.5em;
+    width: 2.5em;
+  }
+
+  .footer--container {
+    height: 5em;
+  }
+}
+
+/* Tablet */
+@media (min-width: 550px) and (max-width: 1023px) {
+  :root {
+    --fs-heading-title: 2.1rem;
+    --fs-heading-subtitle: 1.125rem;
+    --fs-portfolio-link: 0.95rem;
+    --fs-button: 1rem;
+    --fs-about-interests-heading: 1.4rem;
+    --fs-about-interests-text: 1rem;
+
+    --lh-heading-title: 2.6rem;
+    --lh-heading-subtitle: 1.75rem;
+    --lh-portfolio-link: 1.5rem;
+    --lh-button: 1.75rem;
+    --lh-about-interests-heading: 2rem;
+    --lh-about-interests-text: 1.33rem;
+  }
+
+  .button {
+    width: 25%;
+  }
+
+  svg {
+    height: 2em;
+    width: 2em;
+  }
+
+  .footer--container {
+    height: 4.5em;
+  }
+}
+
+/* Mobile L, default styles in index.css */
+
+/* Mobile M */
+@media (min-width: 321px) and (max-width: 375px) {
+  :root {
+    --fs-heading-title: 1.75rem;
+    --fs-heading-subtitle: 0.9rem;
+    --fs-portfolio-link: 0.75rem;
+    --fs-button: 0.8rem;
+    --fs-about-interests-heading: 1.1rem;
+    --fs-about-interests-text: 0.75rem;
+
+    --lh-heading-title: 2.1rem;
+    --lh-heading-subtitle: 1.3rem;
+    --lh-portfolio-link: 1rem;
+    --lh-button: 1.25rem;
+    --lh-about-interests-heading: 1.6rem;
+    --lh-about-interests-text: 1.1rem;
+  }
+
+  svg {
+    height: 1.5em;
+    width: 1.5em;
+  }
+
+  .footer--container {
+    height: 3.5em;
+  }
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+  :root {
+    --fs-heading-title: 1.5rem;
+    --fs-heading-subtitle: 0.825rem;
+    --fs-portfolio-link: 0.7rem;
+    --fs-button: 0.75rem;
+    --fs-about-interests-heading: 0.95rem;
+    --fs-about-interests-text: 0.65rem;
+
+    --lh-heading-title: 1.8rem;
+    --lh-heading-subtitle: 1.1rem;
+    --lh-portfolio-link: 0.9rem;
+    --lh-button: 1rem;
+    --lh-about-interests-heading: 1.33rem;
+    --lh-about-interests-text: 0.9rem;
+  }
+
+  svg {
+    height: 1.25em;
+    width: 1.25em;
+  }
+
+  .footer--container {
+    height: 3em;
+  }
+}
