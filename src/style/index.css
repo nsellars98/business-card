@@ -19,19 +19,19 @@
 
   --ff-primary: "Inter", sans-serif;
 
-  --fs-heading-title: 1.9rem;
+  --fs-heading-title: 2rem;
   --fs-heading-subtitle: 1rem;
   --fs-portfolio-link: 0.8rem;
   --fs-button: 0.9rem;
   --fs-about-interests-heading: 1.25rem;
   --fs-about-interests-text: 0.9rem;
 
-  --lh-heading-title: 2.4rem;
-  --lh-heading-subtitle: 1.5rem;
-  --lh-portfolio-link: 1.25rem;
-  --lh-button: 1.5rem;
+  --lh-heading-title: 1.8rem;
+  --lh-heading-subtitle: 1.33rem;
+  --lh-portfolio-link: 1rem;
+  --lh-button: 1.625rem;
   --lh-about-interests-heading: 1.8rem;
-  --lh-about-interests-text: 1.2rem;
+  --lh-about-interests-text: 1.1rem;
 }
 
 *,
@@ -96,7 +96,7 @@ svg {
   font-size: var(--fs-heading-subtitle);
   line-height: var(--lh-heading-subtitle);
   margin-top: -1.25em;
-  margin-bottom: 0.67em;
+  margin-bottom: 1.125em;
 }
 
 .portfolio--link {
@@ -116,12 +116,12 @@ svg {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 1.25em;
+  padding-top: 0.8em;
 }
 
 .buttons--container > a > svg {
-  height: 1em;
-  width: 1em;
+  height: 1.25em;
+  width: 1.25em;
 }
 
 .button {
@@ -187,7 +187,7 @@ svg {
   color: var(--clr-accent-100);
   font-size: var(--fs-about-interests-heading);
   line-height: var(--lh-about-interests-heading);
-  margin-bottom: -0.33em;
+  margin-bottom: -0.5em;
 }
 
 .about--heading {
