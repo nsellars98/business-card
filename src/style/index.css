@@ -55,7 +55,13 @@ svg {
   height: 1.75em;
   width: 1.75em;
   fill: var(--clr-accent-500);
+  cursor: pointer;
   transition: 0.4s;
+}
+
+:focus {
+  outline: 3px solid var(--clr-accent-400);
+  outline-offset: 3px;
 }
 
 /* Header Styles */
@@ -69,12 +75,13 @@ svg {
 }
 
 .heading--container > a {
+  display: inline-block;
   text-decoration: none;
   cursor: pointer;
 }
 
 .heading--profile_photo {
-  display: inline-block;
+  display: block;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -108,6 +115,7 @@ svg {
 
 .portfolio--link:hover {
   color: var(--clr-accent-600);
+  transform: scale(1.1);
 }
 
 /* Button styles */
@@ -125,6 +133,7 @@ svg {
 }
 
 .button {
+  display: inline-block;
   text-decoration: none;
   border: none;
   display: flex;
@@ -135,8 +144,13 @@ svg {
   line-height: var(--lh-button);
   padding: 0.7em 0;
   margin: 0 0.7em;
-  width: 36%;
+  width: 40%;
+  cursor: pointer;
   transition: 0.4s;
+}
+
+.button:hover {
+  transform: scale(1.1);
 }
 
 .button--light {
@@ -146,7 +160,7 @@ svg {
 
 .button--light > svg {
   background: none;
-  fill: var(--clr-accent-800);
+  fill: var(--clr-accent-700);
 }
 
 .button--dark {
@@ -155,7 +169,7 @@ svg {
 }
 
 .button--dark > svg {
-  background: var(--clr-accent-600);
+  background: none;
   fill: var(--clr-accent-100);
 }
 
@@ -165,11 +179,11 @@ svg {
 }
 
 .button--light:hover {
-  background-color: var(--clr-accent-300);
+  background: var(--clr-accent-300);
 }
 
 .button--dark:hover {
-  background-color: var(--clr-accent-500);
+  background: var(--clr-accent-500);
 }
 
 /* About Styles & Interests Styles */
@@ -230,4 +244,5 @@ svg {
 
 .footer--container svg:hover {
   fill: var(--clr-accent-400);
+  transform: scale(1.1);
 }
