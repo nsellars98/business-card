@@ -75,6 +75,41 @@
   }
 }
 
+/* Widescreen Specific Styles */
+@media (min-width: 1440px) {
+  .content--container {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .about--container,
+  .interests--container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .about--container {
+    padding-left: 5em;
+    padding-right: 2.25em;
+  }
+
+  .interests--container {
+    padding-right: 5em;
+    padding-left: 2.25em;
+  }
+
+  .about--heading,
+  .interests--heading {
+    padding-top: 2.5em;
+  }
+
+  .about--text {
+    padding-bottom: 3.5em;
+  }
+}
+
 /* Laptop */
 @media (min-width: 1024px) and (max-width: 1439px) {
   :root {
@@ -108,6 +143,14 @@
 
   .footer--container {
     height: 5em;
+  }
+}
+
+/* Mobile & Tablet Specific Styles */
+@media (max-width: 1023px) {
+  .about--container,
+  .interests--container {
+    padding: 0 2.5em;
   }
 }
 
