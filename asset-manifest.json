@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/business-card/static/css/main.1a1eedd5.css",
+    "main.css": "/business-card/static/css/main.9c49c329.css",
     "main.js": "/business-card/static/js/main.13753bfb.js",
     "static/media/profile_image.jpg": "/business-card/static/media/profile_image.171e5793ae6fc95816c8.jpg",
     "index.html": "/business-card/index.html",
-    "main.1a1eedd5.css.map": "/business-card/static/css/main.1a1eedd5.css.map",
+    "main.9c49c329.css.map": "/business-card/static/css/main.9c49c329.css.map",
     "main.13753bfb.js.map": "/business-card/static/js/main.13753bfb.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a1eedd5.css",
+    "static/css/main.9c49c329.css",
     "static/js/main.13753bfb.js"
   ]
 }
