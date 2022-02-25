@@ -102,11 +102,12 @@
 
   .about--heading,
   .interests--heading {
-    padding-top: 2.5em;
+    padding-top: 2.25em;
   }
 
-  .about--text {
-    padding-bottom: 3.5em;
+  .about--text,
+  .interests--text {
+    padding-bottom: 3.25em;
   }
 }
 
@@ -182,7 +183,35 @@
   }
 }
 
+/* Mobile Specific Styles */
+@media (max-width: 549px) {
+  .buttons--container {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 65%;
+  }
+
+  .button--light {
+    margin-bottom: 0.7em;
+  }
+
+  .button--dark {
+    margin-top: 0.7em;
+  }
+}
+
 /* Mobile L, default styles in index.css */
+
+/* Narrow Screen Specific Styles */
+@media (max-width: 375px) {
+  .about--container,
+  .interests--container {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+}
 
 /* Mobile M */
 @media (min-width: 321px) and (max-width: 375px) {
